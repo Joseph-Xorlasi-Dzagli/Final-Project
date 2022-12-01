@@ -1,0 +1,8 @@
+1. DL from ACC to JFK 0 stops
+
+2. DL from JFK to MSP 0 stops
+
+3. SY from MSP to YWG 0 stops
+
+Total flights: 3
+Total Additional Stops: 0
