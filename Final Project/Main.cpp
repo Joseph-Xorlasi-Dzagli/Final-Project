@@ -383,9 +383,10 @@ vector<string> findroute(string requestfile) {
 ////        # if min is not the destination airport:
                 } else if (!min.checkForAirport(Explored) && Heuristic(element, DestinationAirport) < Heuristic(min, DestinationAirport)) {
                 min = element;
-                route.push_back(min.getAirportName());
+                
             }
             }
+        route.push_back(min.getAirportName());
         }
 
     return route;
